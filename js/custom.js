@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+  //Mobile version sidebar
     if ($(window).width() < 992) {
         $(".author-of-week h4, .book-of-year h4").on('click', function(event) {
             $(this).next(".list-unstyled").toggle('fast');
@@ -9,6 +10,7 @@ $(document).ready(function(){
     
 });
 
+//Main Slider
 $(function() {
   fr = new FilmRoll({
     container: '#film_roll'
@@ -18,7 +20,7 @@ $(function() {
   $("#film_roll").swipe();
 });
 
-// init Isotope
+// Gallery filter 
 var $grid = $('.grid').isotope({
   itemSelector: '.element-item',
   layoutMode: 'fitRows'
