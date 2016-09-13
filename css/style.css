@@ -380,7 +380,7 @@ body {
     }
     .gallery-tab-row {
         width: 100%;
-        margin: 15px 0;
+        margin: 30px 0;
     }
     .gallery-tab-row h4 {
         float: none;
@@ -408,7 +408,19 @@ body {
     .gallery-book-info {
         padding: 0 10px;
     }
+    .mid-section{
+      margin-top: 10px;
+    }
 }
+@media (min-width: 375px) and (max-width: 667px) {
+.slide-left-img,
+    .slide-right-info{
+      margin-top: 20px; 
+    }
+    .slide-left-img img{
+      margin-left: 10px; 
+    }
+  }
 @media (max-width: 375px) {
     .main-slider .col-xs-6 {
         width: 100%;
@@ -418,9 +430,7 @@ body {
         margin: 10px 0 0 10px;
     }
     .slide-right-info {
-        width: 100%;
-        float: none;
-        margin-left: 10px;
+        width: 66%;
     }
     .slide-right-info h3 {
         font-size: 18px;
@@ -441,4 +451,8 @@ body {
     .element-item {
         width: 100%;
     }
+    .main-slider .btn {
+  margin: 0;
+  padding: 6px 32px;
+}
 }
