@@ -8,7 +8,7 @@ $(document).ready(function(){
         });
     }
     
-});
+
 
 //Main Slider
 $(function() {
@@ -47,4 +47,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     $buttonGroup.find('.is-checked').removeClass('is-checked');
     $( this ).addClass('is-checked');
   });
+});
+
+
 });
